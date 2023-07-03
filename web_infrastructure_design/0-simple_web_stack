@@ -1,0 +1,47 @@
+https://imgur.com/a/Mqkoc98
+
+Because a server is usually located in a data center?
+====================================================
+
+1- Data centers are facilities specifically designed to house and operate servers efficiently. These centers provide an adequate infrastructure, including redundant electrical power, cooling systems, reliable network connectivity and security systems. This ensures the continuous operation of the servers.
+
+2- Physical security is a priority in the data centers. Advanced measures such as surveillance cameras, access controls, intrusion detection systems and fire protection are implemented. These measures protect servers and stored data from external threats, providing a secure environment for their operation.
+
+3- Network connectivity in the data centers is of high quality, as they are located in areas with access to multiple Internet service providers and high-speed communication lines. This ensures reliable and fast connectivity for servers, especially for applications and services that require high availability and optimal performance.
+
+4- Data centers are designed to be scalable, meaning that servers can be added or removed according to capacity and performance needs. They also implement redundancy measures, such as backup power systems and redundant network storage configurations, to ensure continuous availability of servers, even in the event of hardware failures or unforeseen events.
+
+5- Maintenance and technical support are provided by specialized personnel in the data centers. They handle tasks such as installation, configuration, upgrading and repair of hardware and software. In addition, they are available to respond quickly to failures or problems, minimizing any service interruption.
+
+
+Server Types: Physical vs. Virtual and Operating System Importance
+==================================================================
+
+A physical server is a physical machine that is dedicated to running server software and providing services to other computers over a network. It consists of hardware components such as a motherboard, processor, memory, storage devices, and network interfaces. Physical servers are often used in traditional data centers and on-premises infrastructure.
+
+On the other hand, a virtual server, also known as a virtual machine (VM), is a software emulation of a physical server. It runs on a physical server but operates as if it were a separate, independent server. Multiple virtual servers can run on a single physical server, each with its own operating system and applications. Virtualization technology allows for better utilization of hardware resources and increased flexibility in managing server infrastructure.
+
+Regardless of whether it is a physical or virtual server, it runs an operating system (OS). The OS provides the foundational software environment that manages hardware resources, handles system tasks, and provides services to other software applications. Common server operating systems include Linux distributions (such as Ubuntu, CentOS, and Red Hat Enterprise Linux) and Windows Server. The choice of the operating system depends on the specific requirements and preferences of the server's intended use.
+
+server
+======
+When a single server is used without any redundancy or backup, it can be considered a single point of failure. Any problem or failure on that server can lead to a complete system outage and loss of data. To mitigate this risk, redundancy measures can be implemented, such as the use of redundant servers, RAID configurations, backup systems, and the use of virtualization and cloud services. These measures help improve system reliability, reduce downtime and minimize the risks associated with a single point of failure.
+
+In a networked environment, servers communicate with other devices using the TCP/IP protocol suite. TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a collection of networking protocols that enable reliable and efficient communication over networks, including the internet.
+
+Application Server
+==================
+An application server is responsible for computing dynamic content and processing business logic for web applications. It provides an execution environment for running server-side programs or scripts that generate dynamic web pages. The application server interacts with the database to retrieve and update data as required by the application.
+
+Database
+========
+A database's primary role is to store application data in an organized and structured manner. It provides a means for persistent storage of information that can be accessed, managed, and manipulated by the application. The database management system (DBMS) handles tasks like data storage, retrieval, and management, ensuring data integrity and security.
+
+DNS (Domain Name System)
+========================
+DNS translates domain names (e.g., www.example.com) into IP addresses (e.g., 192.0.2.1) that computers understand. When you enter a domain name in a web browser, the DNS server looks up the associated IP address and routes your request to the correct destination server. DNS plays a vital role in connecting users to websites and other network resources by resolving domain names to their corresponding IP addresses.
+
+===
+
+If the existing infrastructure cannot handle traffic that exceeds the server's capacity, it is important to implement scalability strategies.
+
