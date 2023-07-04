@@ -1,0 +1,8 @@
+https://imgur.com/a/k4J2Kb7S
+
+Configurar un equilibrador de carga como un clúster implica distribuir el tráfico entrante entre múltiples instancias de equilibradores de carga para obtener redundancia y permitir la recuperación en caso de fallos.
+Seleccionar una solución de equilibrador de carga que admita clústeres y failover, como HAProxy, Nginx, F5 BIG-IP o equilibradores de carga de proveedores en la nube como AWS Elastic Load Balancer o Azure Load Balancer.
+Proveer múltiples instancias de equilibradores de carga con configuraciones idénticas, incluyendo ajustes de red, escuchadores y grupos de servidores backend.
+Configurar comprobaciones de estado (health checks) para monitorear la disponibilidad y salud de las instancias del clúster. Si una instancia falla la comprobación de estado, se considera no disponible.
+Implementar un mecanismo de failover que permita a las instancias del equilibrador de carga detectar y manejar la falla de otras instancias. Esto puede implicar actualizar registros DNS o reasignar direcciones IP virtuales.
+Establecer monitoreo y alertas para supervisar el rendimiento y la disponibilidad del clúster, y gestionar actualizaciones, parches y cambios de configuración de manera consistente.
