@@ -1,5 +1,18 @@
 https://imgur.com/a/jH08Eq1
 
-- Active-Active Setup: In an active-active setup, all the load balancers in the configuration actively distribute traffic and handle requests simultaneously. This setup is often used to achieve higher performance and scalability. Each load balancer shares the traffic load and works in parallel to distribute requests across multiple servers or backend resources. If one load balancer fails, the others continue to handle the traffic seamlessly. This configuration requires careful load balancing algorithms and synchronization mechanisms to ensure efficient distribution of requests.
+Active-Active Setup: In an active-active setup, all the load balancers in the
+configuration actively distribute traffic and handle requests simultaneously.
+This setup is often used to achieve higher performance and scalability.
+Each load balancer shares the traffic load and works in parallel to distribute
+requests across multiple servers or backend resources. If one load balancer fails,
+the others continue to handle the traffic seamlessly. This configuration requires
+careful load balancing algorithms and synchronization mechanisms to ensure
+efficient distribution of requests.
 
-- Active-Passive Setup: In an active-passive setup, only one load balancer is actively distributing traffic and handling requests at a given time, while the others remain in a passive state, ready to take over in case of a failure. This setup is commonly used for redundancy and failover purposes. The active load balancer monitors the health of the passive load balancers and switches to a standby load balancer if the active one becomes unavailable. This configuration typically requires some form of synchronization or heartbeat mechanism to detect failures and trigger failover.
+Active-Passive Setup: In an active-passive setup, only one load balancer is
+actively distributing traffic and handling requests at a given time, while the
+others remain in a passive state, ready to take over in case of a failure. This
+setup is commonly used for redundancy and failover purposes. The active load balancer
+monitors the health of the passive load balancers and switches to a standby load
+balancer if the active one becomes unavailable. This configuration typically requires
+some form of synchronization or heartbeat mechanism to detect failures and trigger failover.
