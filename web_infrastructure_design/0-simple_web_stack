@@ -45,3 +45,8 @@ DNS translates domain names (e.g., www.example.com) into IP addresses (e.g., 192
 
 If the existing infrastructure cannot handle traffic that exceeds the server's capacity, it is important to implement scalability strategies.
 
+===
+
+When new code is implemented and the web server needs to be restarted, it is common for the web site to be temporarily down during the process. This interruption is necessary to ensure a smooth transition from the old code to the new code.
+
+During the restart of the web server, the execution of the current code is stopped and the execution of the updated code is started. During this restart process, the web site is temporarily unavailable to users because the server needs time to shut down, remove the old code, load the new code and restart.
